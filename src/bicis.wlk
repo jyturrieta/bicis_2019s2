@@ -51,8 +51,7 @@ class Bici
 	
 	method esCompaniera(unaBicicleta)
 	{
-		return (self.marca() == unaBicicleta.marca()) and (self.largo() - unaBicicleta.largo() < 10 
-			and self.largo() - unaBicicleta.largo() > -10)
+		return ((self != unaBicicleta) and ((self.marca() == unaBicicleta.marca()) and ((self.largo() - unaBicicleta.largo()) <= 10 )))
 	}
 }
 
