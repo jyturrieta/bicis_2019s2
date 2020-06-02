@@ -51,3 +51,4 @@ class Deposito
 		return bicis.filter({bici => bici.esCompaniera(unaBicicleta)})
 	}
 }
+

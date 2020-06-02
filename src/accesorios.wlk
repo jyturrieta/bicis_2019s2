@@ -59,5 +59,6 @@ class Morral
 	}
 }
 
-
-/* */
+/* Se debe crear una nueva clase, la cual debe contener los mismos metodos que le resto 
+ * de los accesorios para que se respete el poliformismo. Con esto, podemos crear cualquier
+ * tipo de accesorio nuevo desde la consola*/
